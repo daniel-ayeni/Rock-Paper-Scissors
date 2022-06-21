@@ -57,7 +57,7 @@ while True:
         # If Player chooses SCISSORS and Computer randomly chooses PAPER, Computer Loses
         else:
             #  YOU WIN!, Scissors cut paper is displayed
-            print("You win!", player, "cut", computer)
+            print("YOU WIN!", player, "cut", computer)
             # 1 is added to the current score of Player
             player_score += 1
     # If Player chooses Enters/ inputs "Stop" or "End" or "Quit" or "Q", The game ends and the results are displayed
