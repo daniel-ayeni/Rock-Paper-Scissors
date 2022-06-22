@@ -19,6 +19,8 @@ while True:
     # Conditions for the game
     # If both the player and computer select the same , It is a TIE
     if player == computer:
+        # Displays the value selected by computer
+        print("Computer selected", computer)
         # TIE is displayed
         print("TIE!")
         # Computer variable is given a value at random from choices again
@@ -26,6 +28,8 @@ while True:
     # If Player chooses ROCK and Computer randomly chooses PAPER, Player Loses
     elif player == "Rock":
         if computer == "Paper":
+            # Displays the value selected by computer
+            print("Computer selected", computer)
             # YOU LOSE!, Paper covers Rock is displayed
             print("YOU LOSE!", computer, "covers", player)
             # 1 is added to the current score of computer
@@ -34,6 +38,8 @@ while True:
             computer = random.choice(choices)
         # If Player chooses ROCK and Computer randomly chooses SCISSORS, Computer Loses
         else:
+            # Displays the value selected by computer
+            print("Computer selected", computer)
             # YOU WIN!, Rock smashes paper is displayed
             print("YOU WIN!", player, "smashes", computer)
             # 1 is added to the current score of Player
@@ -41,6 +47,8 @@ while True:
     # If Player chooses PAPER and Computer randomly chooses SCISSORS, Player Loses
     elif player == "Paper":
         if computer == "Scissors":
+            # Displays the value selected by computer
+            print("Computer selected", computer)
             #  YOU LOSE!, Scissors cut paper is displayed
             print("YOU LOSE!", computer, "cut", player)
             # 1 is added to the current score of computer
@@ -49,6 +57,8 @@ while True:
             computer = random.choice(choices)
         # If Player chooses Paper and Computer randomly chooses Rock, Computer Loses
         else:
+            # Displays the value selected by computer
+            print("Computer selected", computer)
             # YOU WIN!, Paper covers Rock is displayed
             print("YOU WIN!", player, "covers", computer)
             # 1 is added to the current score of Player
@@ -58,6 +68,8 @@ while True:
     # If Player chooses SCISSORS and Computer randomly chooses ROCK, Player Loses
     elif player == "Scissors":
         if computer == "Rock":
+            # Displays the value selected by computer
+            print("Computer selected", computer)
             # YOU LOSE!, Rock smashes Scissors is displayed
             print("YOU LOSE!", computer, "smashes", player)
             # 1 is added to the current score of computer
@@ -66,6 +78,8 @@ while True:
             computer = random.choice(choices)
         # If Player chooses SCISSORS and Computer randomly chooses PAPER, Computer Loses
         else:
+            # Displays the value selected by computer
+            print("Computer selected", computer)
             #  YOU WIN!, Scissors cut paper is displayed
             print("YOU WIN!", player, "cut", computer)
             # 1 is added to the current score of Player
